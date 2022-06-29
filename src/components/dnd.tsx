@@ -57,7 +57,7 @@ const DnD = () => {
                             color: "#ffffff",
                             distance: 150,
                             enable: true,
-                            opacity: 0.2,
+                            opacity: 0.05,
                             width: 1,
                         },
                         collisions: {
@@ -81,7 +81,7 @@ const DnD = () => {
                             value: 100,
                         },
                         opacity: {
-                            value: 0.2,
+                            value: 0.1,
                         },
                         shape: {
                             type: "circle",
@@ -93,15 +93,15 @@ const DnD = () => {
                 }}
             />
             <Container fluid className="dnd-section">
-                <h1 className="white">Dungeons & Dragons!</h1>
-                <h5 className="white">All my creations for my Dungeons and Dragons games!</h5>
+                <h1 className="white pagetitle">Dungeons & Dragons!</h1>
+                <h4 className="white">All my creations for my Dungeons and Dragons games!</h4>
                 <br></br>
                 <br></br>
                 <Row>
                     <Col md="6">
-                        <GiDragonOrb className="dnd-icon" size="160" />
-                        <h2 className="white">Anivea</h2>
-                        <h5 className="white">A Custom Campaign World</h5>
+                        <GiDragonOrb className="dnd-icon" size="180" />
+                        <h1 className="white">Anivea</h1>
+                        <h4 className="white">A Custom Campaign World</h4>
                         <p className="white lefty">
                             Anivea is a custom setting that I've created and used in
                             my own D&D campaigns. A standard high-fantasy setting, 
@@ -141,9 +141,9 @@ const DnD = () => {
                         <br></br>
                     </Col>
                     <Col md="6">
-                        <GiMagicSwirl className="dnd-icon" size="160" />
-                        <h2 className="white">Mystic</h2>
-                        <h5 className="white">A Homebrew Class</h5>
+                        <GiMagicSwirl className="dnd-icon" size="180" />
+                        <h1 className="white">Mystic</h1>
+                        <h4 className="white">A Homebrew Class</h4>
                         <p className="white lefty">
                             For a long time, Wizards of the Coast has tried to create a mystic 
                             class. This class would use psionic powers, effectively creating 

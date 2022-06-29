@@ -97,8 +97,8 @@ const Thoughts = () => {
                     }}
                 />
                 <Container fluid className="thoughts-section">
-                    <h1 className="white">My Thoughts</h1>
-                    <h6 className="white">An overdramatic notepad, for whatever else comes to mind</h6>
+                    <h1 className="white pagetitle">My Thoughts</h1>
+                    <h5 className="white">An overdramatic notepad, for whatever else comes to mind</h5>
                     <br></br>
                     <Tabs className="tabset">
                         <TabList>

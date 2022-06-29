@@ -14,27 +14,27 @@ const Banner = () => {
                 <Navbar.Brand href="/" >
                     <img
                         src={logo}
-                        width="120"
-                        height="120"
+                        width="150"
+                        height="150"
                     />{' '}
                 </Navbar.Brand>
                 <Navbar.Brand href="/" className="justify-content-center, titleText">
-                    Will Redding
+                    <h3>Will Redding</h3>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" style={{ padding: "15px" }}>
                     <Nav>
-                        <Nav.Link href="/code">
-                            <AiOutlineCode /> Code
+                        <Nav.Link className="banner-link" href="/code">
+                            <AiOutlineCode size="25"/> Code
                         </Nav.Link>
-                        <Nav.Link href="/dnd">
-                            <FaDiceD20 /> D&D
+                        <Nav.Link className="banner-link" href="/dnd">
+                            <FaDiceD20 size="25"/> D&D
                         </Nav.Link>
-                        <Nav.Link href="/thoughts">
-                            <BsPencil /> Thoughts
+                        <Nav.Link className="banner-link" href="/thoughts">
+                            <BsPencil size="25"/> Thoughts
                         </Nav.Link>
-                        <Nav.Link href="/about">
-                            <AiFillEye /> About
+                        <Nav.Link className="banner-link" href="/about">
+                            <AiFillEye size="25"/> About
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

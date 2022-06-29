@@ -60,7 +60,7 @@ const About = () => {
                             color: "#ffffff",
                             distance: 150,
                             enable: true,
-                            opacity: 0.2,
+                            opacity: 0.1,
                             width: 1,
                         },
                         collisions: {
@@ -84,7 +84,7 @@ const About = () => {
                             value: 100,
                         },
                         opacity: {
-                            value: 0.2,
+                            value: 0.1,
                         },
                         shape: {
                             type: "circle",
@@ -96,22 +96,24 @@ const About = () => {
                 }}
             />
             <Container fluid className="about-section">
-                <h1 className="white">About Me</h1>
+                <h1 className="white pagetitle">About Me</h1>
                 <br></br>
                 <Row>
                     <Col md="6">
-                        <p className="white">Email: willredding3.14@gmail.com</p>
+                        <h5 className="white">Email: willredding3.14@gmail.com</h5>
                     </Col>
                     <Col md="6">
-                        <a href="" download><button className="resume-button">Download my resume</button></a>
+                        <a href="https://docs.google.com/document/d/1iagHpEUMfY2uUtpRQC8BhaL9gwZPTP4lxMMsyzwSNjI/edit?usp=sharing">
+                            <button className="resume-button">Check out my resume!</button>
+                        </a>
                     </Col>
                 </Row>
                 <br></br>
                 <Row>
                     <Col md="8">
-                        <h2 className="white"><u>Synopsis:</u></h2>
-                        <p className="white"><i>Nothing has changed, he is the same.</i> -Jon Bellion</p>
-                        <p className="white lefty">
+                        <h1 className="white"><u>Synopsis:</u></h1>
+                        <p className="white about-text"><i>Nothing has changed, he is the same.</i> -Jon Bellion</p>
+                        <p className="white lefty about-text">
                             Let's make it a whole biography, and start at the beginning. I was born, raised, and 
                             still primarily reside in North Attleboro, Massachusetts. I graduated from North Attleboro
                             High School (top 10 in my class, class president), all the while beginning my explorations
@@ -124,7 +126,7 @@ const About = () => {
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={willsunset} width="204" height="273"></img>
+                            <img src={willsunset} width="286" height="382"></img>
                             <figcaption className="white caption">Perhaps the best photo of me ever taken</figcaption>
                         </figure>
                     </Col>
@@ -135,13 +137,13 @@ const About = () => {
                         <br></br>
                         <br></br>
                         <figure>
-                            <img src={willandkevin} width="222" height="221"></img>
+                            <img src={willandkevin} width="310" height="308"></img>
                             <figcaption className="white caption">Me and international celebrity Kevin Moody</figcaption>
                         </figure>
                     </Col>
                     <Col md="8">
-                        <h2 className="white"><u>Code:</u></h2>
-                        <p className="white lefty">
+                        <h1 className="white"><u>Code:</u></h1>
+                        <p className="white lefty about-text">
                             Beginning my code explorations in early high school, I moved into college with a functional 
                             knowledge of Java, Javascript, and HTML/CSS. During my time at Northeastern, I've been 
                             spending more time with Python and Java while picking up languages like C. During this time 
@@ -155,8 +157,8 @@ const About = () => {
                 <br></br>
                 <Row>
                     <Col md="8">
-                        <h2 className="white"><u>My Life:</u></h2>
-                        <p className="white lefty">
+                        <h1 className="white"><u>My Life:</u></h1>
+                        <p className="white lefty about-text">
                             As pictured on this page, I spend whenever I can in Swanzey NH, where I've got 
                             several wonderful friends and a church-affiliated family camp where I would spend 
                             my summers before working and volunteering at the camp. When I'm not spending time 
@@ -169,7 +171,7 @@ const About = () => {
                     </Col>
                     <Col md="4">
                         <figure>
-                            <img src={willandabbys} width="201" height="267"></img>
+                            <img src={willandabbys} width="268" height="355.6"></img>
                             <figcaption className="white caption">Me with two people, both named Abby</figcaption>
                         </figure>
                     </Col>

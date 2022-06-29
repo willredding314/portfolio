@@ -84,7 +84,7 @@ const Home = () => {
                                 enable: true,
                                 area: 800,
                               },
-                              value: 100,
+                              value: 80,
                             },
                             opacity: {
                               value: 0.2,
@@ -101,7 +101,7 @@ const Home = () => {
                 <Container className="home-top">
                     <Row>
                         <Col md={5} className="headshot">
-                            <img src={headshot} width="300" height="300"></img>
+                            <img src={headshot} width="400" height="400"></img>
                         </Col>
                         <Col md={7} className="mainCard">
                             <br></br>
@@ -116,8 +116,8 @@ const Home = () => {
                                 <h1 className="heyThere"><strong>Welcome!</strong></h1>
                             </MovingText>
                             <br></br>
-                            <h1 className="white">I'm Will.</h1>
-                            <h4 className="white">Developer, student, and a guy with a website.</h4>
+                            <h1 className="white imwill">I'm Will.</h1>
+                            <h2 className="white">Developer, student, and a guy with a website.</h2>
                         </Col>
                     </Row>
                 </Container>
@@ -126,29 +126,27 @@ const Home = () => {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
                 <Container fluid className="home-bottom">
                     <Row>
                         <Col md="6" className="home-desc">
-                            <h3 className="white">From Javascript to Demi-Lich...</h3>
+                            <h2 className="white">From Javascript to Demi-Lich...</h2>
                             <br></br>
-                            <h3 className="white">I've got it all!</h3>
+                            <h2 className="white">I've got it all!</h2>
                             <br></br>
-                            <h5 className="white">
+                            <h3 className="white">
                                 First and foremost, I'm a software developer currently operating out of 
                                 Massachusetts and studying at Northeastern University.
-                            </h5>
+                            </h3>
                             <br></br>
-                            <h5 className="white">
+                            <h3 className="white">
                                 I've worked in languages like Java, Python, Go, and Typescript, 
                                 and have experience with technologies like Terraform and AWS. 
-                            </h5>
+                            </h3>
                             <br></br>
-                            <h5 className="white">
+                            <h3 className="white">
                                 I also play a lot of D&D, and make lots of homebrew content that
                                 you can check out here. 
-                            </h5>
+                            </h3>
                         </Col>
                         <Col md="6" className="d20col">
                             <br></br>
@@ -164,12 +162,12 @@ const Home = () => {
                 <Container fluid className="contact-card">
                     <Row>
                         <Col md="12">
-                            <h3 className="white">
+                            <h2 className="white">
                                 Find me here!
-                            </h3>
-                            <a href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={50}/></a>
-                            <a href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={50}/></a>
-                            <a href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={50}/></a>
+                            </h2>
+                            <a href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
+                            <a href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
+                            <a href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>
                         </Col>
                     </Row>
                 </Container>

@@ -10,6 +10,10 @@
     z-index: 1;
 }
 
+.banner-link {
+    font-size: 20px;
+}
+
 html {
     height: 100%;
 }
@@ -81,11 +85,15 @@ html {
 
 .heyThere {
     color: white;
+    font-size: 80px;
+}
+
+.imwill {
     font-size: 60px;
 }
 
 .d20 {
-    height: 40vmin;
+    height: 43vmin;
     pointer-events: none;
 }
 
@@ -137,7 +145,7 @@ html {
 }
 
 .caption {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .resume-button {
@@ -145,6 +153,7 @@ html {
     color: black;
     border: none;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .stack-bar {
@@ -174,4 +183,12 @@ html {
 
 .dnd-icon {
     color: white;
+}
+
+.pagetitle {
+    font-size: 50px;
+}
+
+.about-text {
+    font-size: 23px;
 }
