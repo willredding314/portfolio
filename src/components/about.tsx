@@ -145,10 +145,10 @@ const About = () => {
                         <h1 className="white"><u>Code:</u></h1>
                         <p className="white lefty about-text">
                             Beginning my code explorations in early high school, I moved into college with a functional 
-                            knowledge of Java, Javascript, and HTML/CSS. During my time at Northeastern, I've been 
+                            knowledge of Java, Javascript, and HTML/CSS. While at Northeastern, I've been 
                             spending more time with Python and Java while picking up languages like C. During this time 
                             I've interned at two companies, Orchard Therapeutics as an Automation Engineer and RECUR as a 
-                            DevOps Engineer, picking up Go, AWS, and some Github skills during this time. During my semesters, 
+                            DevOps Engineer, picking up Go, AWS, and some Github skills. During my semesters, 
                             I've also worked as a TA for Fundementals of CS, and been a part of Oasis Development Club, joining
                             teams to build a for-fun software project.   
                         </p>
