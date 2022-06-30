@@ -159,7 +159,7 @@ const About = () => {
                     <Col md="8">
                         <h1 className="white"><u>My Life:</u></h1>
                         <p className="white lefty about-text">
-                            As pictured on this page, I spend whenever I can in Swanzey NH, where I've got 
+                            As pictured on this page, I often spend my time in Swanzey NH, where I've got 
                             several wonderful friends and a church-affiliated family camp where I would spend 
                             my summers before working and volunteering at the camp. When I'm not spending time 
                             up here, I'm often playing tennis, ultimate frisbee, and doing trivia. I've got an 
