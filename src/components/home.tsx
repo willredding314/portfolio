@@ -165,9 +165,9 @@ const Home = () => {
                             <h2 className="white">
                                 Find me here!
                             </h2>
-                            <a href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
-                            <a href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
-                            <a href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
+                            <a target="_blank" href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
+                            <a target="_blank" href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>
                         </Col>
                     </Row>
                 </Container>

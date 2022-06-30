@@ -103,7 +103,7 @@ const About = () => {
                         <h5 className="white">Email: willredding3.14@gmail.com</h5>
                     </Col>
                     <Col md="6">
-                        <a href="https://docs.google.com/document/d/1iagHpEUMfY2uUtpRQC8BhaL9gwZPTP4lxMMsyzwSNjI/edit?usp=sharing">
+                        <a target="_blank" href="https://docs.google.com/document/d/1iagHpEUMfY2uUtpRQC8BhaL9gwZPTP4lxMMsyzwSNjI/edit?usp=sharing">
                             <button className="resume-button">Check out my resume!</button>
                         </a>
                     </Col>

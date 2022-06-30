@@ -109,7 +109,7 @@ const Code = () => {
                                     web development, as my previous site (made of only HTML/CSS) was 
                                     painfully dull. 
                                 </h5>
-                                <a href="https://github.com/willredding314/portfolio" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/willredding314/portfolio" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
@@ -122,7 +122,7 @@ const Code = () => {
                                     of D&D combat into a web game, with the intention being that players
                                     can build characters and test them against automatic enemies.
                                 </h5>
-                                <a href="https://github.com/willredding314/5e-playtest-arena" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/willredding314/5e-playtest-arena" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                         </Row>
                         <br></br>
@@ -137,7 +137,7 @@ const Code = () => {
                                     the characteristics of their perfect movie, and then uses vector 
                                     similarity to determine the optimal movie from IMDb's top 250 movies. 
                                 </h5>
-                                <a href="https://github.com/willredding314/OasisProject" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/willredding314/OasisProject" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
@@ -150,7 +150,7 @@ const Code = () => {
                                     for the GUI of a system that allows for uploading, downloading, viewing, 
                                     and editing of several different forms of image files.
                                 </h5>
-                                <a href="https://github.com/willredding314/VidoImageProcessing" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="https://github.com/willredding314/VidoImageProcessing" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                         </Row>
                     </Container>

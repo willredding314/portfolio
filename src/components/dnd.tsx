@@ -134,7 +134,7 @@ const DnD = () => {
                             The icon below is a link to the Google Doc where I do all my work, so 
                             you'll be seeing a live update on my progress.
                         </p>
-                        <a href="https://docs.google.com/document/d/1Ix5X6X5YUAh_D8p0IvVjuF7fbd9FwnAxjJLfjiK_jYQ/edit?usp=sharing">
+                        <a target="_blank" href="https://docs.google.com/document/d/1Ix5X6X5YUAh_D8p0IvVjuF7fbd9FwnAxjJLfjiK_jYQ/edit?usp=sharing">
                             <HiOutlineDocument className="dnd-icon" size="50"/>
                         </a>
                         <br></br>
@@ -173,7 +173,7 @@ const DnD = () => {
                             The icon below is a link to the Google Doc where I do all my work, so 
                             you'll be seeing a live update on my progress.
                         </p>
-                        <a href="https://docs.google.com/document/d/12aw7g6X5OLhRFsGxWlseDPFJwiCo8sFnuW94zBendHE/edit?usp=sharing">
+                        <a target="_blank" href="https://docs.google.com/document/d/12aw7g6X5OLhRFsGxWlseDPFJwiCo8sFnuW94zBendHE/edit?usp=sharing">
                             <HiOutlineDocument className="dnd-icon" size="50"/>
                         </a>
                         <br></br>
