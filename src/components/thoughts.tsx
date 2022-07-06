@@ -103,6 +103,7 @@ const Thoughts = () => {
                     <Tabs className="tabset">
                         <TabList>
                             <Tab>Code Thoughts</Tab>
+                            <Tab>D&D Thoughts</Tab>
                             <Tab>Favorite Things</Tab>
                             <Tab>Other</Tab>
                         </TabList>
@@ -181,6 +182,95 @@ const Thoughts = () => {
                                         for the possibility for a optimization of D&D combat. Establishing weights for different styles of 
                                         combat can allow for these styles to be ranked in terms of efficacy when put against a different 
                                         type of opponent, making a thrilling case study of applying AI to D&D combat. 
+                                    </p>
+                                </Col>
+                            </Row>
+                        </TabPanel>
+                        <TabPanel className="dnd-thoughts">
+                            <h5 className="white">Contents:</h5>
+                            <li className="white">My Primary Characters</li>
+                            <br></br>
+                            <h5 className="white lefty">My Primary Characters</h5>
+                            <Row>
+                                <Col md="1"></Col>
+                                <Col md="11">
+                                    <p className="white lefty">
+                                        I am an eternal DM, so I don't get to play much. However, I love 
+                                        building characters, most of which I've never played. To give them
+                                        some life, each and every one of my characters lives in my homebrew 
+                                        world as an NPC, allowing them to potentially make an appearance for 
+                                        a few minutes. The following are my favorites.
+                                    </p>
+                                    <br></br>
+                                    <p className="white lefty">
+                                        <strong><u>Enzo Bigboots:</u></strong> A favorite NPC among the players I've had. 
+                                        Enzo Bigboots on paper is a halfling Armorer Artificer, and an excellent tinkerer. 
+                                        His occupation is as a bootmaker, though his boots are nothing normal, with each pair 
+                                        having incredible design and a magical enchantment. He's extremely odd, skiddish, 
+                                        and played with a very high pitched voice. 
+                                    </p>
+                                    <p className="white lefty">
+                                        Enzo's story begins as an apprentice to his father, Bilbury Bigboots. A bootmaker himself
+                                        and the owner of the 300 year old Bigboot's Boots store, Bilbury put pressure on Enzo to
+                                        keep the Bigboots name alive. However, Enzo had an inclination to magic, and loved to 
+                                        make non-footwear magical objects, making boots only when his father required him. As the 
+                                        years went on and Enzo enterred his teenage years, he nearly abandoned bootmaking, only 
+                                        making one pair a year for his father for the Winter Solstice, Anivea's Christmas equivelant.
+                                    </p>
+                                    <p className="white lefty">
+                                        Despite being one of the world's best bootmakers, Enzo's interests lied elsewhere, leading 
+                                        his Solstice boots for his father to become worse and worse over time. However, his father 
+                                        continued to wear these boots exclusively, being solely proud of his son's bootmaking. This 
+                                        continued until Enzo was 17, when a pack of Dire Wolves rushed into town, killing a fleeing 
+                                        Bilbury Bigboots. Upon examining the scene, Enzo found a torn boot that had fallen off the 
+                                        fleeing Bilbury about 50 feet from the place he died. From then on, Enzo reasoned that his 
+                                        father could have survived if he had made him a better pair of boots. 
+                                    </p>
+                                    <p className="white lefty">
+                                        Distraught from his failures, Enzo vowed to only make boots for the rest of his life. For the 
+                                        few years up to the present day, Enzo used his magical tinkering to make footwear exclusively.
+                                        He also began to make his own pair, an incredibly powerful pair of boots called "The Bigboots".
+                                        He added pieces to these boots over time, causing the boots to grow larger, eventually extending
+                                        up to his legs and his torso, eventually appearing more like a suit of armor than a pair of boots. 
+                                        However, it would be unwise to refer to this as armor, as Enzo is incredibly insistent that he only 
+                                        makes boots, and constantly advertises himself as such. However, his exploits aren't in vain, as 
+                                        the new magic brought to Bigboot's Boots has made it a staple in Anivea. 
+                                    </p>
+                                    <br></br>
+                                    <p className="white lefty">
+                                        <strong><u>Yul, The Fateless:</u></strong> A human man of 29 years, Yul lived most of his life in 
+                                        travel, his family and past only existing in a child's vague memory of disease and famine in the mostly 
+                                        destroyed city of Aegishold. Since then, he travelled, quickly discovering his exceptional ability 
+                                        to pick up new skills. In each city he reached, the teenage Yul would find himself quickly living 
+                                        in a comfortable lifestyle with a new job as a blacksmith, leatherworker, or woodcarver. He also 
+                                        became a masterful musician, learning many instruments and making much of his income as a performer
+                                        in higher class cities. With little left to explore, Yul found a new desire during his travels, 
+                                        control of the arcane. 
+                                    </p>
+                                    <p className="white lefty">
+                                        Beginning at the age of 16, Yul began to study magic everywhere he went, spending all of his 
+                                        downtime attempting to cast spells and learning magical theory. After half a dozen years,
+                                        he was an expert in magical theory, but was still entirely unable to cast a spell. His desperation
+                                        led him to abandon the search, destroyed by the existence of one thing that he couldn't learn. 
+                                        He led a simpler life, working for a year as a tinkerer and perfoming at a local theater during the 
+                                        nights. He kept busy, and tried to keep the thought of magic out of his mind to little avail, as 
+                                        the ideas of arcane theory still constantly darted around his mind. This all changed during one of 
+                                        his nightly performances, where he opened for a bard who included magical effects in his performances. 
+                                    </p>
+                                    <p className="white lefty">
+                                        Yul spoke with this bard after his performance, asking him about his magical studies, hoping to gain 
+                                        some information about how he learned the arcane. To his surprise, the bard knew nothing of the arcane, 
+                                        and was able to produce magic purely through the music he creates. This struck Yul with the idea of 
+                                        casting spells in a more unconventional sense, through the study of acoustics. He quit his jobs and began
+                                        to focus all of his time on using musical tones to influence the arcane weave. After a year of work and
+                                        study, he crafted a universal theory of sonic arcana, and began to put it to the test. He created a new 
+                                        lute, called the "Fateful Lute", which used a series of interconnected strings and automatically moving 
+                                        pegs to create a device that, when played in different ways, could influence the magical weave to create 
+                                        spell effects. 
+                                    </p>
+                                    <p className="white lefty">
+                                        At present day, Yul has returned to his life of travelling, energized by his recent discovery, and 
+                                        looking for new and exciting ways to use and explore his theory. 
                                     </p>
                                 </Col>
                             </Row>
