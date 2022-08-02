@@ -162,10 +162,9 @@ const About = () => {
                             As pictured on this page, I often spend my time in Swanzey NH, where I've got 
                             several wonderful friends and a church-affiliated family camp where I would spend 
                             my summers before working and volunteering at the camp. When I'm not spending time 
-                            up here, I'm often playing tennis, ultimate frisbee, and doing trivia. I've got an 
-                            interest in music, specifically writing and producing, where I am god-awful but having 
-                            a good time. I also obviously love D&D, and have been working on a homebrew campaign and 
-                            other creations. I won't elaborate much on that, you can check out the 'D&D' tab for that! 
+                            up here, I'm often playing tennis, ultimate frisbee, and doing trivia. I also obviously 
+                            love D&D, and have been working on a homebrew campaign and other creations. I won't 
+                            elaborate much on that, you can check out the 'D&D' tab for that! 
                             
                         </p>
                     </Col>
