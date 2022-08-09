@@ -116,6 +116,41 @@ const Thoughts = () => {
                             <Row>
                                 <Col md="1"></Col>
                                 <Col md="11">
+                                    <p className="white lefty"><strong><u>8/8/21 - 4:03pm:</u></strong> It moves! 
+                                        Very exciting stuff. If you read the stuff below about 5e Arena, you'll see 
+                                        some challenges involving interactions between characters. Most importantly, 
+                                        I needed to figure out how to create reaction triggers, as everything that 
+                                        could happen in combat could potentially trigger a reaction. With this being 
+                                        resolved, we now have a runable combat, and the next steps are to integrate 
+                                        the simpler combat actions. In order, this will be 'pass turn', 'move', and 
+                                        'attack - weapon'. Once these are completed, we will be able to run true 5e combat
+                                        with the level 1 fighter characters I have designed as a starting point. 
+                                    </p>
+                                    <p className="white lefty">
+                                        So how will we handle reactions? The current system uses an expanding turn stack. 
+                                        Whenever the stack is empty, we place a 'TurnContext' for the next character in the 
+                                        initiative order on top of the stack, providing the character up next and any 
+                                        contextual tags necessary for the upcoming turn. When the next turn is up, the current 
+                                        top of the stack gets popped, and that character gets there turn. Whenever they make a move, 
+                                        we had a TurnContext to the stack for every other character in combat, where the context is 
+                                        a reaction with tags specific to the action. At the bottom of these additions is a copy of the 
+                                        move that triggered the reaction opportunities, with an additional 'checked' tag. This tag 
+                                        means that reactions will not be triggered, and the action will take effect after the reactions  
+                                        have been made or passed. 
+                                    </p>
+                                    <p className="white lefty">
+                                        While it seems like this will slow combat drastically, it often won't be obvious that 
+                                        each character is given an opportunity to react. This is because of the design of Reactions, 
+                                        as each Reaction object that a character owns has a set of required tags that allow the reaction 
+                                        to be triggered. This allows us to check each character for reactions automatically, and only 
+                                        present the option to take a reaction when one is applicable. This means that after most actions, 
+                                        the reaction process won't be noticeable, as no other character will have an applicable reaction and
+                                        will be skipped entirely. 
+                                    </p>
+                                    <p className="white lefty">
+                                        A very exciting development! On to building actions!
+                                    </p>
+                                    <br></br>
                                     <p className="white lefty"><strong><u>7/21/21 - 11:57pm:</u></strong> Been working on 5e Arena
                                         for a solid 2 weeks now, and I figure it's time for an update. As of
                                         now, I've got development react components up, meaning I've got a
@@ -129,7 +164,6 @@ const Thoughts = () => {
                                         Much of this code will be reused for attacks as well, making this a very good
                                         thing to start on.
                                     </p>
-                                    <br></br>
                                     <p className="white lefty">
                                         There is still one major challenge at play here. Completing the ability to make an 
                                         action is simple enough, but having them interact is going to be tricky. My best 
