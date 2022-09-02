@@ -116,7 +116,7 @@ const Thoughts = () => {
                             <Row>
                                 <Col md="1"></Col>
                                 <Col md="11">
-                                    <p className="white lefty"><strong><u>8/8/21 - 4:03pm:</u></strong> It moves! 
+                                    <p className="white lefty"><strong><u>8/8/22 - 4:03pm:</u></strong> It moves! 
                                         Very exciting stuff. If you read the stuff below about 5e Arena, you'll see 
                                         some challenges involving interactions between characters. Most importantly, 
                                         I needed to figure out how to create reaction triggers, as everything that 
@@ -151,7 +151,7 @@ const Thoughts = () => {
                                         A very exciting development! On to building actions!
                                     </p>
                                     <br></br>
-                                    <p className="white lefty"><strong><u>7/21/21 - 11:57pm:</u></strong> Been working on 5e Arena
+                                    <p className="white lefty"><strong><u>7/21/22 - 11:57pm:</u></strong> Been working on 5e Arena
                                         for a solid 2 weeks now, and I figure it's time for an update. As of
                                         now, I've got development react components up, meaning I've got a
                                         launch page and a battlefield, both very simple. With a loose design
@@ -422,8 +422,56 @@ const Thoughts = () => {
                         </TabPanel>
                         <TabPanel className="other-thoughts">
                             <h5 className="white">Contents:</h5>
-                            <li className="white">Nothing but empty space here</li>
+                            <li className="white">Rolling Around Heaven All Day: A Barbershop Discussion</li>
                             <br></br>
+                            <h5 className="white lefty">Rolling Around Heaven All Day: A Barbershop Discussion:</h5>
+                            <Row>
+                                <Col md="1"></Col>
+                                <Col md="11">
+                                    <p className="white lefty">
+                                        I'm not a big a capella guy. A capella, for the most part, acts to replace
+                                        the use of instruments in a song with voices. Effectively, an inferior way 
+                                        of creating music. However, none of that matters when it comes to barbershop
+                                        quartets. While classically a bit cheesy (and still cheesy sometimes), there is 
+                                        something notable and powerful about the four part harmonies of some of the best 
+                                        arrangements. I spent most of high school singing barbershop music in some way, 
+                                        and so dearly miss it. A barbershop quartet consists of four voices: a bass (the 
+                                        low notes), a tenor (the high notes), a lead (the melody), and a baritone (the 
+                                        junk, leftover notes). I've been a tenor for all my days, having a pretty high 
+                                        range. 
+                                    </p>
+                                    <p className="white lefty">
+                                        If you'd like to begin going down the rabbit hole, I've got two recommendations to 
+                                        get you started. It's important to note that these <strong>MUST</strong> be watched 
+                                        in their entirety. All barbershop songs end in what is known as a "tag", which is 
+                                        nothing more than a mark of the end of a song. While some ballads have tags that 
+                                        bring the volume down to silence, most end in a huge series of chords. The best part 
+                                        of these, from my perspective, is what is called a "post", which is one note that is 
+                                        held for a long time. This usually comes from the tenor or lead, though a bass will 
+                                        sometimes sing a post. Each of my two examples have excellent tags, both with incredible 
+                                        posts, so if nothing else, watch the last minute of each video. 
+                                    </p>
+                                    <p className="white lefty">
+                                        The first is an incredibly medley of songs from the Hunchback of Notre Dame, sung by the 
+                                        quartet Ringmasters. This holds as one of the best tags in barbershop history, with a 
+                                        false tag before the real one. You can watch it <a href="https://www.youtube.com/watch?v=Qo_N9_ZFBhs">
+                                        here</a>.
+                                    </p>
+                                    <p className="white lefty">
+                                        The second is what I would call the greatest barbershop performance ever. Performed by the 
+                                        quartet Crossroads, this piece called "Lucky Old Sun" is one of the highest scoring songs 
+                                        ever at the Barbershop Harmony Society's competition. You can watch it <a href="https://www.youtube.com/watch?v=u7mGjSZpdpk">
+                                        here</a>.
+                                    </p>
+                                    <p className="white lefty">
+                                        I lied! You get three songs! This one comes from the Newfangled Four. They're goofy, they're 
+                                        fun, they're just a great time to watch! While most quartet competitors perform very serious 
+                                        pieces, these guys would bring only fun to the finals. This one is called 
+                                        "Supercalifragilisticexpialidocious", and you can watch it <a href="https://www.youtube.com/watch?v=7BH2CqE5mNQ">
+                                        here</a>.
+                                    </p>
+                                </Col>
+                            </Row>
                         </TabPanel>
                     </Tabs>
                 </Container>
