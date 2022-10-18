@@ -105,16 +105,7 @@ const Home = () => {
                         </Col>
                         <Col md={7} className="mainCard">
                             <br></br>
-                            <MovingText
-                                type="popIn"
-                                duration="3000ms"
-                                delay="0s"
-                                direction="normal"
-                                timing="ease"
-                                iteration="infinite"
-                                fillMode="none">
                                 <h1 className="heyThere"><strong>Welcome!</strong></h1>
-                            </MovingText>
                             <br></br>
                             <h1 className="white imwill">I'm Will.</h1>
                             <h2 className="white">Developer, student, and a guy with a website.</h2>
