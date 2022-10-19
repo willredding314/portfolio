@@ -342,6 +342,7 @@ const Thoughts = () => {
                             <h5 className="white">Contents:</h5>
                             <li className="white">On Having Favorites</li>
                             <li className="white">Music Picks</li>
+                            <li className="white">TV Show Picks</li>
                             <li className="white">Movie Picks</li>
                             <br></br>
                             <h5 className="white lefty">On Having Favorites:</h5>
@@ -393,14 +394,51 @@ const Thoughts = () => {
                                 </Col>
                             </Row>
                             <br></br>
-                            <h5 className="white lefty">Movie Picks:</h5>
+                            <h5 className="white lefty">TV Show Picks:</h5>
                             <Row>
                                 <Col md="1"></Col>
                                 <Col md="11">
                                     <p className="white lefty">
-                                        Compared to music, I feel like I've got a much better knowledge of movies. Here are
-                                        a few of my favorites.
+                                        <strong><u>Community:</u></strong> I've never seen a show so quickly hit its stride. 
+                                        An incredibly meta, self-depricating show that leans so heavily into its complete loss 
+                                        of any level of groundedness. Really trails off towards the end of the series, but the 
+                                        early seasons are the best TV I've ever watched. <i>Six Seasons and a Movie!</i>
                                     </p>
+                                    <p className="white lefty">
+                                        <strong><u>Big Brother:</u></strong> An embarrassing fact about me, I enjoy some good 
+                                        reality TV. This is mostly competition shows, like Survivor or Amazing Race, but I've certainly
+                                        sampled other forms of reality TV. But Big Brother is something different for me, as it is as 
+                                        close to a pure social competition and expiriment as popular TV could get. The concept, for 
+                                        those who don't know, is simple. 16 people enter a house, and each week one person is evicted 
+                                        from the house based on a vote from the other players. There are complexities involved, where the 
+                                        people eligible to be evicted is based on the decisions of people who win certain in-game 
+                                        competitions, but this isn't particularly important to the spirit of the game. Honestly, I think 
+                                        the competitions are a hinderence to the game, as it takes away from a purely social and strategic 
+                                        competition. This mutual social manipulation in a closed format is something that, in the best 
+                                        of cases, is nothing short of magical to watch. The way a truly excellent player can exercise such 
+                                        a high level charisma and social ability to control the directions of the other players is truly 
+                                        impressive. If every season had a player like Dr. Will Kirby or Derrick Levasseur, this show would 
+                                        be nothing short of perfect. Unfortunately, the show falls behind in many seasons where the gameplay 
+                                        is weak and the show relies on goofy, high produced competitions. This is often resolved in the 
+                                        Canadian version of the show, which includes this high production to build a sense a importance 
+                                        for the show, but builds these competitions and events on themes of strategy and deception, presenting
+                                        a much better tone. Big Brother Canada also includes a concept of "secret missions", where production 
+                                        will fill a lull in gameplay with a secret social mission for a houseguest, which provides good TV while 
+                                        staying on the theme of deception and manipulation by having a player do some kind of deceptive task to 
+                                        win a reward for the entire house.
+                                    </p>
+                                    <p className="white lefty">
+                                        <strong><u>Daredevil:</u></strong> The best piece of Marvel media ever put out there. An honest, almost 
+                                        grounded story of an incredibly interesting character in Matt Murdock. Charlie Cox and Vincent D-Onofrio
+                                        play truly believable rivals, and I can't wait for the next season. 
+                                    </p>
+                                </Col>
+                            </Row>
+                            <br></br>
+                            <h5 className="white lefty">Movie Picks:</h5>
+                            <Row>
+                                <Col md="1"></Col>
+                                <Col md="11">
                                     <p className="white lefty">
                                         <strong><u>Good Will Hunting:</u></strong> The greatest of all time. Powerful performances
                                         all around, an incredible story, and some of the most iconic lines ever. <i>I got her number,
