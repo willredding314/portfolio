@@ -8,6 +8,7 @@ import About from './components/about';
 import Thoughts from './components/thoughts';
 import DnD from './components/dnd';
 import Code from './components/code';
+import TopThings from './components/top';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/thoughts" element={<Thoughts />}></Route>
           <Route path="/code" element={<Code />}></Route>
           <Route path="/dnd" element={<DnD />}></Route>
+          <Route path="/secret-top-100" element={<TopThings />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

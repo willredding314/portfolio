@@ -125,8 +125,8 @@ const Home = () => {
                             <h2 className="white">I've got it all!</h2>
                             <br></br>
                             <h3 className="white">
-                                First and foremost, I'm a software developer currently operating out of 
-                                Massachusetts and studying at Northeastern University.
+                                First and foremost, I'm a software developer studying at Northeastern University, currently 
+                                on an internship at Apple in San Diego.
                             </h3>
                             <br></br>
                             <h3 className="white">

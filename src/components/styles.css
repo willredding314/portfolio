@@ -192,3 +192,9 @@ html {
 .about-text {
     font-size: 23px;
 }
+
+.secret {
+    opacity: 0.0;
+    text-decoration: none;
+
+}

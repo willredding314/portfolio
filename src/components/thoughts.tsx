@@ -340,29 +340,9 @@ const Thoughts = () => {
                         </TabPanel>
                         <TabPanel className="favs-thoughts">
                             <h5 className="white">Contents:</h5>
-                            <li className="white">On Having Favorites</li>
                             <li className="white">Music Picks</li>
                             <li className="white">TV Show Picks</li>
                             <li className="white">Movie Picks</li>
-                            <br></br>
-                            <h5 className="white lefty">On Having Favorites:</h5>
-                            <Row>
-                                <Col md="1"></Col>
-                                <Col md="11">
-                                    <p className="white lefty">
-                                        I like keeping lists of my favorite things. On my phone I have an ever changing
-                                        list of lists, each being a Top 10 for different categories. I won't go through
-                                        them all on here, as those are mostly for my own use, but I certainly love to talk
-                                        about these favorites.
-                                    </p>
-                                    <p className="white lefty">
-                                        Something I find notable is that I find some categories conducive to having favorites,
-                                        and others not. I find it extremely easy to select a single favorite movie, song, album,
-                                        or even beverage, but find it impossible to select a single favorite in the category of
-                                        TV show, or food. I'm inclined to believe other people feel the same way.
-                                    </p>
-                                </Col>
-                            </Row>
                             <br></br>
                             <h5 className="white lefty">Music Picks:</h5>
                             <Row>
@@ -457,6 +437,7 @@ const Thoughts = () => {
                                     </p>
                                 </Col>
                             </Row>
+                            <a href="/secret-top-100" className="secret">But wait, there's more</a>
                         </TabPanel>
                         <TabPanel className="other-thoughts">
                             <h5 className="white">Contents:</h5>

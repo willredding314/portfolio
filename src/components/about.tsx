@@ -119,7 +119,7 @@ const About = () => {
                             High School (top 10 in my class, class president), all the while beginning my explorations
                             in software. From here I moved to Northeastern University in Boston, where I continue to 
                             study Computer Science at Khoury College, picking up some internships along the way.
-                            As of now, I've got two more years left at Northeastern, with one co-op baked in, before 
+                            As of now, I've got one more year left at Northeastern, before 
                             I head into the great unknown. 
                         </p>
                     </Col>
@@ -147,8 +147,9 @@ const About = () => {
                             Beginning my code explorations in early high school, I moved into college with a functional 
                             knowledge of Java, Javascript, and HTML/CSS. While at Northeastern, I've been 
                             spending more time with Python and Java while picking up languages like C. During this time 
-                            I've interned at two companies, Orchard Therapeutics as an Automation Engineer and RECUR as a 
-                            DevOps Engineer, picking up Go, AWS, and some Github skills. During my semesters, 
+                            I've completed internships at two companies, Orchard Therapeutics as an Automation Engineer and RECUR as a 
+                            DevOps Engineer, picking up Go, AWS, and some Github skills. Right now I'm on my third internship, 
+                            where I'm on a QE Tools and Automation team at Apple in San Diego. During my semesters, 
                             I've also worked as a TA for Fundementals of CS, and been a part of Oasis Development Club, joining
                             teams to build a for-fun software project.   
                         </p>
