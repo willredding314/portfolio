@@ -116,13 +116,13 @@ const Code = () => {
                                 <img src={d20} width="250" height="250"/>
                                 <h1 className="white">5e Playtest Arena</h1>
                                 <h5 className="white">
-                                    My favorite project! Been thinking about this one for a while, and 
+                                    Been thinking about this one for a while, and 
                                     as of now it is finally in progress! This site is also made in React.
                                     This project will be the first site to fully incorporate the rules 
                                     of D&D combat into a web game, with the intention being that players
                                     can build characters and test them against automatic enemies.
                                 </h5>
-                                <a target="_blank" href="https://github.com/willredding314/5e-playtest-arena" ><AiFillGithub className="gh-link" size="50"/></a>
+                                <a target="_blank" href="" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                         </Row>
                         <br></br>
