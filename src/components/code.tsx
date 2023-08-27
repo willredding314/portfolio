@@ -113,21 +113,6 @@ const Code = () => {
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
-                                <img src={d20} width="250" height="250"/>
-                                <h1 className="white">5e Playtest Arena</h1>
-                                <h5 className="white">
-                                    Been thinking about this one for a while, and 
-                                    as of now it is finally in progress! This site is also made in React.
-                                    This project will be the first site to fully incorporate the rules 
-                                    of D&D combat into a web game, with the intention being that players
-                                    can build characters and test them against automatic enemies.
-                                </h5>
-                                <a target="_blank" href="" ><AiFillGithub className="gh-link" size="50"/></a>
-                            </Col>
-                        </Row>
-                        <br></br>
-                        <Row>
-                            <Col md="5">
                                 <BiCameraMovie size="250" color="white"/>
                                 <h1 className="white">Movie Recs</h1>
                                 <h5 className="white">
@@ -138,6 +123,20 @@ const Code = () => {
                                     similarity to determine the optimal movie from IMDb's top 250 movies. 
                                 </h5>
                                 <a target="_blank" href="https://github.com/willredding314/OasisProject" ><AiFillGithub className="gh-link" size="50"/></a>
+                            </Col>
+                        </Row>
+                        <br></br>
+                        <Row>
+                            <Col md="5">
+                                <img src={d20} width="250" height="250"/>
+                                <h1 className="white">Rate My Dorms</h1>
+                                <h5 className="white">
+                                    Rate My Dorms is a project created for my Web Development class in 
+                                    the fall of 2022. Built in Next.js and Node.js, this project allows people
+                                    to view residence halls at their school, and rate on comment their pages to
+                                    allow other students to be better informed on their future dorms. 
+                                </h5>
+                                <a target="_blank" href="https://github.com/willredding314/webDevFinalProject" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
                             <Col md="2"></Col>
                             <Col md="5">
@@ -152,50 +151,6 @@ const Code = () => {
                                 </h5>
                                 <a target="_blank" href="https://github.com/willredding314/VidoImageProcessing" ><AiFillGithub className="gh-link" size="50"/></a>
                             </Col>
-                        </Row>
-                    </Container>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <Container className="stack-section">
-                        <h2 className="white">My Stack</h2>
-                        <Row>
-                            <Col md="1"></Col>
-                            <Col md="2">
-                                <li className="white">Java</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">Python</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">Go</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">TS/React</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">Github</li>
-                            </Col>
-                            <Col md="1"></Col>
-                        </Row>
-                        <Row>
-                            <Col md="1"></Col>
-                            <Col md="2">
-                                <li className="white">C</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">Bash</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">AWS</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">Terraform</li>
-                            </Col>
-                            <Col md="2">
-                                <li className="white">VSCode</li>
-                            </Col>
-                            <Col md="1"></Col>
                         </Row>
                     </Container>
                 </Container>

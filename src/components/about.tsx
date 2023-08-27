@@ -116,11 +116,10 @@ const About = () => {
                         <p className="white lefty about-text">
                             Let's make it a whole biography, and start at the beginning. I was born, raised, and 
                             still primarily reside in North Attleboro, Massachusetts. I graduated from North Attleboro
-                            High School (top 10 in my class, class president), all the while beginning my explorations
-                            in software. From here I moved to Northeastern University in Boston, where I continue to 
-                            study Computer Science at Khoury College, picking up some internships along the way.
-                            As of now, I've got one more year left at Northeastern, before 
-                            I head into the great unknown. 
+                            High School, all the while beginning my explorations in software. From here I moved to 
+                            Northeastern University in Boston, where I continue to study Computer Science at Khoury 
+                            College, picking up some internships along the way. As of now, I've got one more year 
+                            left at Northeastern, before I head into the great unknown. 
                         </p>
                     </Col>
                     <Col md="4">
@@ -147,11 +146,10 @@ const About = () => {
                             Beginning my code explorations in early high school, I moved into college with a functional 
                             knowledge of Java, Javascript, and HTML/CSS. While at Northeastern, I've been 
                             spending more time with Python and Java while picking up languages like C. During this time 
-                            I've completed internships at two companies, Orchard Therapeutics as an Automation Engineer and RECUR as a 
-                            DevOps Engineer, picking up Go, AWS, and some Github skills. Right now I'm on my third internship, 
-                            where I'm on a QE Tools and Automation team at Apple in San Diego. During my semesters, 
-                            I've also worked as a TA for Fundementals of CS, and been a part of Oasis Development Club, joining
-                            teams to build a for-fun software project.   
+                            I've completed internships at three companies, Orchard Therapeutics as an Automation Engineer, RECUR as a 
+                            DevOps Engineer, and Apple, where I worked on internal tooling for a QE team and created a web service. 
+                            During my semesters, I've also worked as a TA for Fundementals of CS, and been a part of Oasis Development Club,
+                            mentoring teams as they build start projects and learn web development.   
                         </p>
                     </Col>
                 </Row>
@@ -164,9 +162,8 @@ const About = () => {
                             several wonderful friends and a church-affiliated family camp where I would spend 
                             my summers before working at the camp. When I'm not spending time 
                             up here, I'm often playing tennis, ultimate frisbee, and doing trivia. I also obviously 
-                            love D&D, and have been working on a homebrew campaign and other creations. I won't 
+                            love D&D, and am always working on a million homebrew creations. I won't 
                             elaborate much on that, you can check out the 'D&D' tab for that! 
-                            
                         </p>
                     </Col>
                     <Col md="4">
