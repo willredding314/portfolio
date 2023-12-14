@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import logo from './imgs/PortfolioNew.png'
 import d20 from './imgs/d20outline.png'
 import { AiFillGithub, AiOutlineFileImage } from 'react-icons/ai'
+import { MdApartment } from 'react-icons/md'
 import { BiCameraMovie } from 'react-icons/bi'
 
 
@@ -73,7 +74,7 @@ const Code = () => {
                                     default: "bounce",
                                 },
                                 random: false,
-                                speed: 2,
+                                speed: 1,
                                 straight: false,
                             },
                             number: {
@@ -128,7 +129,7 @@ const Code = () => {
                         <br></br>
                         <Row>
                             <Col md="5">
-                                <img src={d20} width="250" height="250"/>
+                                <MdApartment />
                                 <h1 className="white">Rate My Dorms</h1>
                                 <h5 className="white">
                                     Rate My Dorms is a project created for my Web Development class in 

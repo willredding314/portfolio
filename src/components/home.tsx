@@ -2,8 +2,6 @@ import React, { useCallback } from "react"
 import "./styles.css"
 import { Container, Row, Col } from "react-bootstrap"
 import headshot from './imgs/headshotHex.png'
-import MovingText from 'react-moving-text'
-import AnimatedBg from 'react-animated-bg'
 import Particles from 'react-tsparticles'
 import { loadFull } from "tsparticles"
 import d20 from './imgs/d20outline.png'
@@ -120,13 +118,10 @@ const Home = () => {
                 <Container fluid className="home-bottom">
                     <Row>
                         <Col md="6" className="home-desc">
-                            <h2 className="white">From Javascript to Demi-Lich...</h2>
-                            <br></br>
-                            <h2 className="white">I've got it all!</h2>
                             <br></br>
                             <h3 className="white">
-                                First and foremost, I'm a software developer studying at Northeastern University, currently 
-                                on an internship at Apple in San Diego.
+                                I'm a software developer studying at Northeastern University, graduating 
+                                in May of 2024. 
                             </h3>
                             <br></br>
                             <h3 className="white">
@@ -153,9 +148,6 @@ const Home = () => {
                 <Container fluid className="contact-card">
                     <Row>
                         <Col md="12">
-                            <h2 className="white">
-                                Find me here!
-                            </h2>
                             <a target="_blank" href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
                             <a target="_blank" href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
                             <a target="_blank" href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>
