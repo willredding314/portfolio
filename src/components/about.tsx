@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import MovingText from 'react-moving-text'
 import './styles.css'
-import willsunset from './imgs/willsunset.png'
+import applepark from './imgs/w-applepark.jpg'
 import willandkevin from './imgs/willandkevin.png'
 import willandabbys from './imgs/willandabbys.png'
 
@@ -116,17 +116,17 @@ const About = () => {
                         <p className="white lefty about-text">
                             Let's make it a whole biography, and start at the beginning. I was born, raised, and 
                             still primarily reside in North Attleboro, Massachusetts. I graduated from North Attleboro
-                            High School, all the while beginning my explorations in software. From here I moved to 
+                            High School, at which time I began my explorations in software. From here I moved to 
                             Northeastern University in Boston, where I continue to study Computer Science at Khoury 
-                            College, picking up some internships along the way. As of now, I've got one more year 
+                            College, picking up some internships along the way. As of now, I've got one more semester 
                             left at Northeastern, before I head into the great unknown. 
                         </p>
                     </Col>
                     <Col md="4">
                         <br></br>
                         <figure>
-                            <img src={willsunset} width="286" height="382"></img>
-                            <figcaption className="white caption">Perhaps the best photo of me ever taken</figcaption>
+                            <img src={applepark} width="286" height="382"></img>
+                            <figcaption className="white caption">Me at Apple Park in Cupertino</figcaption>
                         </figure>
                     </Col>
                 </Row>
@@ -145,11 +145,11 @@ const About = () => {
                         <p className="white lefty about-text">
                             Beginning my code explorations in early high school, I moved into college with a functional 
                             knowledge of Java, Javascript, and HTML/CSS. While at Northeastern, I've been 
-                            spending more time with Python and Java while picking up languages like C. During this time 
-                            I've completed internships at three companies, Orchard Therapeutics as an Automation Engineer, RECUR as a 
-                            DevOps Engineer, and Apple, where I worked on internal tooling for a QE team and created a web service. 
+                            spending more time with Java and Web Development while picking up languages like C and Python. During this time 
+                            I've completed internships at three companies, Orchard Therapeutics as an Automation Engineer, RECUR (a now nonexistent startup) 
+                            as a DevOps Engineer, and Apple, where I worked on internal tooling for a QE team and created a web service. 
                             During my semesters, I've also worked as a TA for Fundementals of CS, and been a part of Oasis Development Club,
-                            mentoring teams as they build start projects and learn web development.   
+                            mentoring teams as they build their first software projects and learn web development.   
                         </p>
                     </Col>
                 </Row>
@@ -159,10 +159,9 @@ const About = () => {
                         <h1 className="white"><u>My Life:</u></h1>
                         <p className="white lefty about-text">
                             As pictured on this page, I often spend my time in Swanzey NH, where I've got 
-                            several wonderful friends and a church-affiliated family camp where I would spend 
-                            my summers before working at the camp. When I'm not spending time 
-                            up here, I'm often playing tennis, ultimate frisbee, and doing trivia. I also obviously 
-                            love D&D, and am always working on a million homebrew creations. I won't 
+                            several wonderful friends and a church-affiliated family camp where I used to spend my summers.
+                            When I'm not spending time up here, I'm often playing tennis, ultimate frisbee, 
+                            and playing trivia. I also obviously love D&D, and am always working on a million homebrew creations. I won't 
                             elaborate much on that, you can check out the 'D&D' tab for that! 
                         </p>
                     </Col>

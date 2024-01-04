@@ -30,7 +30,7 @@ const Banner = () => {
                         <Nav.Link className="banner-link" href="/dnd">
                             <FaDiceD20 size="25"/> D&D
                         </Nav.Link>
-                        <Nav.Link className="banner-link" href="/">
+                        <Nav.Link className="banner-link" href="/thoughts">
                             <BsPencil size="25"/> Thoughts
                         </Nav.Link>
                         <Nav.Link className="banner-link" href="/about">

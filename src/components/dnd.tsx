@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { GiMagicSwirl, GiDragonOrb } from "react-icons/gi"
 import { HiOutlineDocument } from "react-icons/hi"
+import { FaRocket } from "react-icons/fa";
 
 const DnD = () => {
 
@@ -178,6 +179,32 @@ const DnD = () => {
                         </a>
                         <br></br>
                         <br></br>
+                    </Col>
+                </Row>
+                <br></br>
+                <br></br>
+                <Row>
+                    <Col md="6">
+                        <FaRocket className="dnd-icon" size="180" />
+                        <h1 className="white">Mercy's Void</h1>
+                        <h4 className="white">A Science Fiction TTRPG System</h4>
+                        <p className="white lefty">
+                            I've grown a bit tired of fantasy at the moment, and wanted to get into Sci-Fi TTRPG. 
+                            Unfortunately, TTRPG's are dominated by D&D and high fantasy, and I find the existing 
+                            systems for Sci-Fi to be a bit lacking. As a result, I've starting building a new 
+                            system called Mercy's Void. 
+                        </p>
+                        <p className="white lefty">
+                            Mercy is built to address all of my issues with more popular systems. This mostly takes the form 
+                            of removing things that I find logically unrealistic, like using an "action point" system instead 
+                            of the Action-Bonus Action-Movement found in D&D. Character features put a heavy focus in scaling, 
+                            removing the atomic nature of features in other systems that often become overwhelming. 
+                        </p>
+                        <p className="white lefty">
+                            The in-progress document is not published yet. 
+                        </p>
+                    </Col>
+                    <Col md="6">
                     </Col>
                 </Row>
             </Container>

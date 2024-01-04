@@ -129,10 +129,9 @@ const TopThings = () => {
                                         <li className="white lefty">Telling Stories</li>
                                         <li className="white lefty">Poutine</li>
                                         <li className="white lefty">Singing Really Loud</li>
-                                        <li className="white lefty">Kevin Moody</li>
                                         <li className="white lefty">VSCode</li>
                                         <li className="white lefty">Bridge Over Troubled Water</li>
-                                        <li className="white lefty">Diet Coke</li>
+                                        <li className="white lefty">Diet Soda</li>
                                         <li className="white lefty">Gazebos</li>
                                         <li className="white lefty">Diner Breakfast</li>
                                         <li className="white lefty">Goldfish</li>
@@ -140,7 +139,6 @@ const TopThings = () => {
                                         <li className="white lefty">Naturally Moving Water</li>
                                         <li className="white lefty">Lex Fridman</li>
                                         <li className="white lefty">Good Will Hunting</li>
-                                        <li className="white lefty">Libertarianism</li>
                                         <li className="white lefty">Hearing you have a good reputation</li>
                                         <li className="white lefty">The smell of Swanzey NH</li>
                                         <li className="white lefty">Comprehensive, grounded magic systems</li>
@@ -164,7 +162,6 @@ const TopThings = () => {
                                         <li className="white lefty">A fresh album release</li>
                                         <li className="white lefty">Old Pokemon Games</li>
                                         <li className="white lefty">Soft Pants</li>
-                                        <li className="white lefty">Sitcoms without a laugh track</li>
                                         <li className="white lefty">Wireless-chargers</li>
                                         <li className="white lefty">Obi-Wan Kenobi</li>
                                         <li className="white lefty">Top 10 Lists</li>
@@ -191,7 +188,6 @@ const TopThings = () => {
                                         <li className="white lefty">Dropout Originals</li>
                                         <li className="white lefty">Big choir sections in pop music</li>
                                         <li className="white lefty">Baby ducks</li>
-                                        <li className="white lefty">Finding out someone likes you</li>
                                         <li className="white lefty">Box Seats</li>
                                         <li className="white lefty">Pi</li>
                                         <li className="white lefty">LEDs</li>
@@ -205,6 +201,7 @@ const TopThings = () => {
                                         <li className="white lefty">A nice backpack</li>
                                         <li className="white lefty">A good walk</li>
                                         <li className="white lefty">Slippers</li>
+                                        <li className="white lefty">The Apple Ecosystem</li>
                                         <li className="white lefty">LLBean</li>
                                         <li className="white lefty">Python</li>
                                         <li className="white lefty">Community (TV Show)</li>
@@ -216,7 +213,10 @@ const TopThings = () => {
                                         <li className="white lefty">Dark mode</li>
                                         <li className="white lefty">Teaching people things</li>
                                         <li className="white lefty">Notetaking in YAML</li>
-                                        <li className="white lefty">Long conversations</li>
+                                        <li className="white lefty">Food trucks</li>
+                                        <li className="white lefty">Vermont Country Deli</li>
+                                        <li className="white lefty">San Diego</li>
+                                        <li className="white lefty">Lily's Special Chicken Parm Sub</li>
                                         <li className="white lefty">Shirley Temples</li>
                                     </ol>
                                 </Col>

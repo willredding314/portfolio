@@ -6,6 +6,7 @@ import Particles from 'react-tsparticles'
 import { loadFull } from "tsparticles"
 import d20 from './imgs/d20outline.png'
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai"
+import { FaSpotify } from "react-icons/fa";
 
 const Home = () => {
 
@@ -151,6 +152,7 @@ const Home = () => {
                             <a target="_blank" href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
                             <a target="_blank" href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
                             <a target="_blank" href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>
+                            <a target="_blank" href="https://open.spotify.com/user/willredding3.14?si=b2b7f3d9d8344eb6" className="social-link"><FaSpotify size={60}/></a>
                         </Col>
                     </Row>
                 </Container>
