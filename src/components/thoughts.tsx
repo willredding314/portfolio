@@ -100,7 +100,7 @@ const Thoughts = () => {
                     <h1 className="white pagetitle">My Thoughts</h1>
                     <h5 className="white">An overdramatic notepad, for whatever else comes to mind</h5>
                     <br></br>
-                    <Tabs className="tabset" defaultIndex={3}>
+                    <Tabs className="tabset" defaultIndex={0}>
                         <TabList>
                             <Tab>Essay: The Perfect Viewer Sport</Tab>
                             <Tab>General Recommendations</Tab>
