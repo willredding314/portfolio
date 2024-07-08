@@ -7,6 +7,7 @@ import { loadFull } from "tsparticles"
 import d20 from './imgs/d20outline.png'
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai"
 import { FaSpotify } from "react-icons/fa";
+import { SiLetterboxd } from "react-icons/si";
 
 const Home = () => {
 
@@ -107,7 +108,7 @@ const Home = () => {
                                 <h1 className="heyThere"><strong>Welcome!</strong></h1>
                             <br></br>
                             <h1 className="white imwill">I'm Will.</h1>
-                            <h2 className="white">Developer, student, and a guy with a website.</h2>
+                            <h2 className="white">Developer, D&D nerd, and a guy with a website.</h2>
                         </Col>
                     </Row>
                 </Container>
@@ -120,35 +121,28 @@ const Home = () => {
                     <Row>
                         <Col md="6" className="home-desc">
                             <br></br>
+                            <br></br>
                             <h3 className="white">
-                                I'm a software developer studying at Northeastern University, graduating 
-                                in May of 2024. 
+                                I'm a software engineer, currently specialized in machine learning. 
+                                I primarily use languages like Python, Java, and Typescript, and primarily 
+                                focus on building AI models and web applications.  
                             </h3>
                             <br></br>
                             <h3 className="white">
-                                I've worked in languages like Java, Python, Go, and Typescript, 
-                                and have experience with technologies like Terraform and AWS. 
-                            </h3>
-                            <br></br>
-                            <h3 className="white">
-                                I also play a lot of D&D, and make lots of homebrew content that
-                                you can check out here. 
+                                I also play a lot of D&D, and make lots of homebrew content that you can find on this 
+                                site, alongside other writings about the stuff I'm into. 
                             </h3>
                         </Col>
                         <Col md="6" className="d20col">
-                            <br></br>
-                            <br></br>
                             <img src={d20} className="d20"/>
                         </Col>
                     </Row>
                 </Container>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
                 <Container fluid className="contact-card">
                     <Row>
                         <Col md="12">
+                            <a target="_blank" href="https://letterboxd.com/willredding314/" className="social-link"><SiLetterboxd size={60}/></a>
                             <a target="_blank" href="https://www.linkedin.com/in/will-redding314/" className="social-link"><AiOutlineLinkedin size={60}/></a>
                             <a target="_blank" href="https://www.instagram.com/willredding3.14/" className="social-link"><AiOutlineInstagram size={60}/></a>
                             <a target="_blank" href="https://twitter.com/WillRedding314" className="social-link"><AiOutlineTwitter size={60}/></a>

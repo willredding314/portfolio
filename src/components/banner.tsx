@@ -18,8 +18,8 @@ const Banner = () => {
                         height="150"
                     />{' '}
                 </Navbar.Brand>
-                <Navbar.Brand href="/" className="justify-content-center, titleText">
-                    <h3>Will Redding</h3>
+                <Navbar.Brand href="/" className="justify-content-center title-text">
+                    <h1>Will Redding</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" style={{ padding: "15px" }}>
