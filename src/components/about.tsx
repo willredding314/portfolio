@@ -111,15 +111,15 @@ const About = () => {
                 <br></br>
                 <Row>
                     <Col md="8">
-                        <h1 className="white"><u>Synopsis:</u></h1>
-                        <p className="white about-text"><i>Nothing has changed, he is the same.</i> -Jon Bellion</p>
-                        <p className="white lefty about-text">
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <p className="white about-text">
                             Let's make it a whole biography, and start at the beginning. I was born, raised, and 
                             still primarily reside in North Attleboro, Massachusetts. I graduated from North Attleboro
                             High School, at which time I began my explorations in software. From here I moved to 
-                            Northeastern University in Boston, where I continue to study Computer Science at Khoury 
-                            College, picking up some internships along the way. As of now, I've got one more semester 
-                            left at Northeastern, before I head into the great unknown. 
+                            Northeastern University in Boston, where I graduated from the Khoury College of Computer
+                            Sciences. Nowadays, I'm working at healthcare AI company Codametrix as an ML Engineer. 
                         </p>
                     </Col>
                     <Col md="4">
@@ -131,6 +131,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <br></br>
+            {/*
                 <Row>
                     <Col md="4">
                         <br></br>
@@ -172,6 +173,7 @@ const About = () => {
                         </figure>
                     </Col>
                 </Row>
+            */}
                 
             </Container>
 
