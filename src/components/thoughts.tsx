@@ -102,8 +102,7 @@ const Thoughts = () => {
                     <br></br>
                     <Tabs className="tabset" defaultIndex={0}>
                         <TabList>
-                            <Tab>Essay: The Perfect Viewer Sport</Tab>
-                            <Tab>General Recommendations</Tab>
+                            <Tab>The Perfect Viewer Sport</Tab>
                             <Tab>Barbershop</Tab>
                         </TabList>
                         <TabPanel className="barbershop-thoughts">
@@ -203,84 +202,6 @@ const Thoughts = () => {
                                     </p>
                                 </Col>
                             </Row>
-                        </TabPanel>
-                        <TabPanel className="favs-thoughts">
-                            <p className="white">For everything I'm into at the moment</p>
-                            <h5 className="white">Contents:</h5>
-                            <li className="white">Music Picks</li>
-                            <li className="white">TV Show Picks</li>
-                            <li className="white">Movie Picks</li>
-                            <br></br>
-                            <h5 className="white lefty">Music Picks:</h5>
-                            <Row>
-                                <Col md="1"></Col>
-                                <Col md="11">
-                                    <p className="white lefty">
-                                        <strong><u>Simon and Garfunkel:</u></strong> The epitome of 60s folk music, Simon and
-                                        Garfunkel pair Paul Simon's legendary songwriting with the voice of Art Garfunkel. I consider
-                                        both to be the greatest of all time in their respective crafts. The album <i>Bridge Over Troubled
-                                            Water</i> is a good introduction there.
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>Jon Bellion:</u></strong> There's a few things that always work for me in pop music.
-                                        Big choir vocals, trumpet lines, and string sections to name a few. Jon Bellion does all of them.
-                                        It's a shame he hasn't released an album since 2018. Still, I often recommend <i>Glory Sound Prep</i>.
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>Some other songs I'm into right now:</u></strong>
-                                        <ul>
-                                            <li>Gravedigger - Dave Matthews</li>
-                                            <li>Superbloom - Misterwives</li>
-                                            <li>Something Real - Post Malone</li>
-                                        </ul>
-                                    </p>
-                                </Col>
-                            </Row>
-                            <br></br>
-                            <h5 className="white lefty">TV Picks:</h5>
-                            <Row>
-                                <Col md="1"></Col>
-                                <Col md="11">
-                                    <p className="white lefty">
-                                        <strong><u>Community:</u></strong> I've never seen a show so quickly hit its stride.
-                                        An incredibly meta, self-depricating show that leans so heavily into its complete loss
-                                        of any level of groundedness. Really trails off towards the end of the series, but the
-                                        early seasons are the best TV I've ever watched. <i>Six Seasons and a Movie!</i>
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>Big Brother:</u></strong> An embarrassing fact about me, I enjoy some good
-                                        reality TV. This is mostly competition shows, like Survivor or Amazing Race, but I've certainly
-                                        sampled other forms of reality TV. But Big Brother is something different for me, as it is as
-                                        close to a pure social competition and expiriment as popular TV could get.
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>Dropout.tv:</u></strong> Not a TV show, but rather a small, largely unknown streaming service
-                                        from what used to be CollegHumor. I got a subscription to Dropout to watch some D&D, but I've found myself
-                                        watching everything they put out. Lots of improv comedy and other low-budget content that's all very fun.
-                                    </p>
-                                </Col>
-                            </Row>
-                            <br></br>
-                            <h5 className="white lefty">Movie Picks:</h5>
-                            <Row>
-                                <Col md="1"></Col>
-                                <Col md="11">
-                                    <p className="white lefty">
-                                        <strong><u>Good Will Hunting:</u></strong> The greatest of all time. Powerful performances
-                                        all around, and an incredible story. <i>I got her number, how do you like dem apples?</i>
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>The Prestige:</u></strong> My favorite Christopher Nolan movie, and one you'll still
-                                        be thinking about weeks later.
-                                    </p>
-                                    <p className="white lefty">
-                                        <strong><u>Once Upon a Time in Hollywood:</u></strong> Might be a hot take, but I think this is
-                                        Tarantino's best work. A natural dialogue that's unhindered by flashy set pieces, it enabled
-                                        everything Tarantino does best.
-                                    </p>
-                                </Col>
-                            </Row>
-                            <a href="/secret-top-100" className="secret">But wait, there's more</a>
                         </TabPanel>
                         <TabPanel className="barbershop-thoughts">
                             <h5 className="white">Contents:</h5>

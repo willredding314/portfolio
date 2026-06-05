@@ -92,6 +92,13 @@ html {
     font-size: 60px;
 }
 
+.headshot-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .d20 {
     height: 43vmin;
     pointer-events: none;

@@ -115,11 +115,15 @@ const About = () => {
                         <br></br>
                         <br></br>
                         <p className="white about-text">
-                            Let's make it a whole biography, and start at the beginning. I was born, raised, and 
-                            still primarily reside in North Attleboro, Massachusetts. I graduated from North Attleboro
-                            High School, at which time I began my explorations in software. From here I moved to 
-                            Northeastern University in Boston, where I graduated from the Khoury College of Computer
-                            Sciences. Nowadays, I'm working at healthcare AI company Codametrix as an ML Engineer. 
+                             If you haven't figured it out yet, I'm Will! I'm a software engineer in from North Attleboro, 
+                             Massacusetts. These days, I'm specializing in machine learning and AI, having graduated 
+                             from Northeastern University with my BS in Comp Sci and about halfway through my MS in AI 
+                             through an online program from UT Austin. 
+                        </p>
+                        <br></br>
+                        <p className="white about-text">
+                             Outside of software, I'm obviously hugely into D&D, but am also way into the NHL, barbershop quartets, making watches, 
+                             playing tennis, and bar trivia. 
                         </p>
                     </Col>
                     <Col md="4">

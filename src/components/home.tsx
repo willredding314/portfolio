@@ -1,7 +1,7 @@
 import React, { useCallback } from "react"
 import "./styles.css"
 import { Container, Row, Col } from "react-bootstrap"
-import headshot from './imgs/headshotHex.png'
+import applepark from './imgs/w-applepark.jpg'
 import Particles from 'react-tsparticles'
 import { loadFull } from "tsparticles"
 import d20 from './imgs/d20outline.png'
@@ -101,14 +101,14 @@ const Home = () => {
                 <Container className="home-top">
                     <Row>
                         <Col md={5} className="headshot">
-                            <img src={headshot} width="400" height="400"></img>
+                            <img src={applepark} className="headshot-img" alt="Apple Park" />
                         </Col>
                         <Col md={7} className="mainCard">
                             <br></br>
                                 <h1 className="heyThere"><strong>Welcome!</strong></h1>
                             <br></br>
                             <h1 className="white imwill">I'm Will.</h1>
-                            <h2 className="white">Developer, D&D nerd, and a guy with a website.</h2>
+                            <h2 className="white">Software engineer, and a guy with a website.</h2>
                         </Col>
                     </Row>
                 </Container>
@@ -123,14 +123,13 @@ const Home = () => {
                             <br></br>
                             <br></br>
                             <h3 className="white">
-                                I'm a software engineer, currently specialized in machine learning. 
-                                I primarily use languages like Python, Java, and Typescript, and primarily 
-                                focus on building AI models and web applications.  
+                                I'm a software engineer specialized in machine learning and AI, with a focus on 
+                                productionalizing models and intregrating inference into applications.
                             </h3>
                             <br></br>
                             <h3 className="white">
-                                I also play a lot of D&D, and make lots of homebrew content that you can find on this 
-                                site, alongside other writings about the stuff I'm into. 
+                                This site serves as a portfolio of my work, but also serves as a place for other things, 
+                                particularly my homebrew D&D content.
                             </h3>
                         </Col>
                         <Col md="6" className="d20col">
